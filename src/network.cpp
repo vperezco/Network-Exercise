@@ -78,7 +78,7 @@ size_t Network::random_connect(const double& m){
 			 ++ nodes_reset; 
 		 }
 	 }
-	 if ( newValue.size() <= values.size(){
+	 if ( newValues.size() <= values.size()){
 		 for (size_t i =0; i < newValues.size() ; ++i ){
 			 values[i] = newValues[i]; 
 			 ++ nodes_reset;
